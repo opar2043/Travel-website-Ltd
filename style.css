@@ -39,6 +39,7 @@ header{
     color: rgba(19, 19, 24, 0.8);
     font-size: 12px;
     font-weight: 400;
+    line-height: 22px;
 }
 
 
@@ -279,6 +280,7 @@ header .hero-img .hero-head .select placeholder{
    justify-content: left;
    flex-direction: column;
    gap: 15px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .section-03 .grid-02 .grid-item:hover{
     background-color: rgba(41, 246, 127, 0.185);
@@ -305,6 +307,79 @@ header .hero-img .hero-head .select placeholder{
 /* ------------section-02----------------- finished */
 
 
+/* ------------section-04----------------- */
+
+.section-04{
+    width: 86%;
+    height: fit-content;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section-04 .img3{
+    width: 100%;
+    height: 320px;
+    background-image: url(images/grp39.png);
+    border-radius: 16px;
+    display: flex;
+    justify-content: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-04 .two{
+    width: 100%;
+    height: 320px;
+    background-image: url(images/grp40.png);
+    border-radius: 16px;
+    display: flex;
+    justify-content: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-04 .img3 .inner{
+    width: 35%;
+    height: 270px;
+    background-color:  rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 30px;
+    text-align: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.section-04 .img3 .inner{
+    margin-left: 30px;
+}
+.section-04 .img3 .inner h2{
+   font-size: 1.2rem;
+   font-weight: 800;
+}
+.section-04 .img3 .inner h3{
+   font-size: 1rem;
+   font-weight: 700;
+}
+.section-04 .img3 .inner ul{
+   display: flex;
+   justify-content: space-between;   
+}
+.section-04 .img3 .inner ul li{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+}
+.section-04 .img3 .inner ul li .fa-solid{
+    color: rgb(255, 84, 0);
+    font-size: 0.8rem;
+}
+
+/* ------------section-04----------------- finished */
+
+
 
 
 
@@ -320,18 +395,28 @@ header .hero-img .hero-head .select placeholder{
 } */
 
 @media only screen and (max-width: 600px) {
-    header , .head-name ,.section-01 , .section-02 , .section-03{
+    header , .head-name ,.section-01 , .section-02 , .section-03 , .section-04{
         width: 96%;
         height: auto;
     }
 
-    .hero-img ,.black , .section-01 .info-01 ,.section-01 .info-02 {
+    .hero-img ,.black , .section-01 .info-01 ,.section-01 .info-02 , .section-04 .img3 {
         height: 300px;
         margin: 0 auto;
         width: 96%;
     }
     .section-03 .grid-02 .color-02{
         margin-left: 0;
+    }
+    .section-04 .img3 {
+        width: 96%;
+        height: 350px;
+    }
+    .section-04 .img3 .inner{
+        width: 80%;
+        height: 280px;
+        padding: 8px 15px;
+        margin-right: 0px;
     }
 
      .head-main , .section-02 .grid , .section-03 .grid-02{
@@ -343,6 +428,18 @@ header .hero-img .hero-head .select placeholder{
     }
      .section-02 .head-main h2{
         font-size: 1.8rem;
+    }
+    .section-03 .grid-02 .grid-item{
+        height: 250px;
+        gap: 10px;
+        padding: 15px 20px;
+    }
+    .section-04 .img3{
+        justify-content: left;
+    }
+    .section-04 .img3 .inner{
+        padding: 15px;
+        gap: 15px;
     }
 
     header .head , .section-01{
