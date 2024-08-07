@@ -11,7 +11,7 @@
 header{
     width: 88%;
     height: fit-content;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
 }
 .head-name{
@@ -55,7 +55,7 @@ header{
     background-color: rgb(255, 84, 0);
     color: #fff;
     font-size: 13px;
-    padding: 6px 20px;
+    padding: 10px 26px;
     border-radius: 8px;
     border: 0;
     font-weight: 700;
@@ -86,6 +86,7 @@ header{
 header .head{
     display: flex;
     justify-content: space-between;
+    /* justify-content: space-around; */
     width: 86%;
     height: fit-content;
     margin: 0 auto;
@@ -170,6 +171,7 @@ header .hero-img .hero-head .select input{
    border-radius: 6px;
    border: 0;
    outline: 0;
+   font-size: 11px;
 }
 
 header .hero-img .hero-head .select placeholder{
@@ -182,6 +184,7 @@ header .hero-img .hero-head .select placeholder{
     width: 86%;
     height: fit-content;
     display: flex;
+    /* justify-content: space-around; */
     justify-content: space-between;
     margin: 3rem auto;
     text-align: left;
@@ -273,8 +276,8 @@ header .hero-img .hero-head .select placeholder{
 }
 .section-03 .grid-02 .grid-item{
    width: 95%;
-   height: 240px;
-   padding: 30px;
+   height: 250px;
+   padding: 25px 30px;
    border-radius: 16px;
    display: flex;
    justify-content: left;
@@ -304,7 +307,7 @@ header .hero-img .hero-head .select placeholder{
 }
 
 
-/* ------------section-02----------------- finished */
+/* ------------section-03----------------- finished */
 
 
 /* ------------section-04----------------- */
@@ -380,31 +383,175 @@ header .hero-img .hero-head .select placeholder{
 /* ------------section-04----------------- finished */
 
 
+/* ------------Another----------------- */
 
 
+.another li{
+    font-weight: 900;
+}
+.another .info-03{
+    width: 48%;
+    height: 300px;
+}
+.another .info-03 iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-/* @media (min-width: 576px){
-    header{
-        width: 96%;
-        height: fit-content;
-    }
-    header .head{
-        flex-direction: column;
-    }
-       
-} */
+}
+/* ------------Another----------------- finished */
+
+
+/* ------------section-05-----------------  */
+.section-05{
+    height: fit-content;
+    width: 86%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-05 .form{
+    width: 34%;
+    height: 275px;
+    border: 2px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
+}
+.section-05 .form h2{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.section-05 .form form{
+    width: 96%;
+    height: fit-content;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(19, 19, 24, 0.1);
+    padding-top: 10px;
+    margin-top: 12px;
+}
+
+.section-05 .form form input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 12px 0;
+    outline: 0;
+    border: 0;
+    background-color: rgba(19, 19, 24, 0.09);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.section-05 .img-background{
+    background: url(images/img8.png);
+    height: 280px;
+    width: 50%;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.07);
+}
+
+.section-05 .img-background .big{
+   border-radius: 12px;
+   transform: rotate(-20deg);
+   margin-top: 25px;
+   margin-left: 8x;
+   padding: 18px 30px;
+}
+
+.section-05 .img-background .big p{
+    font-weight: 300;
+}
+
+/* footer---------------------- */
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background: rgba(19, 19, 24, 0.09);
+    text-align: center;   
+}
+footer h4{
+    font-size: 14px;
+   
+}
+footer .head-main{
+    width:60%;
+    height: 280px;
+    margin: 50px auto;
+    /* border: 1px solid rgb(255, 84, 0); */
+    margin-top: 60px;
+    text-align: center;
+    padding: 30px 35px;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.1);
+    padding-bottom: 20px;
+}
+
+footer .head-main .head-name{
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 70px;
+    margin-bottom: 16px;
+}
+footer .head-main .head-name h1{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+footer .head-main .icon{
+    display: flex;
+    font-size: 2rem;
+    width: 34%;
+    height: 50px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    color:rgb(255, 84, 0) ;
+}
+footer .head-main .icon .fa-brands:hover{
+    transition: 0.3s;
+    color:rgb(201, 99, 5) ;
+    transform: scale(1.1);
+}
+.none1{
+    display: none;
+}
+
+/* footer----------------------finished */
+
+/* ------------section-05----------------- finished */
+
 
 @media only screen and (max-width: 600px) {
-    header , .head-name ,.section-01 , .section-02 , .section-03 , .section-04{
+    
+    header, .head-name  ,.section-01 , .section-02 , .section-03 , .section-04 ,.section-05{
         width: 96%;
         height: auto;
     }
 
     .hero-img ,.black , .section-01 .info-01 ,.section-01 .info-02 , .section-04 .img3 {
         height: 300px;
-        margin: 0 auto;
+        margin: 0px auto;
         width: 96%;
     }
+    .section-01 {
+        gap: 25px;
+        height: 700px;
+    }
+    .section-01 .info-01{
+        gap: 8px;
+    }
+    
     .section-03 .grid-02 .color-02{
         margin-left: 0;
     }
@@ -442,10 +589,91 @@ header .hero-img .hero-head .select placeholder{
         gap: 15px;
     }
 
-    header .head , .section-01{
+    header .head , .section-01 , .section-05{
         flex-direction: column;
+        gap: 12px;
     }
-    .none{
-        display: none;
+    
+
+    .section-05 .form , .section-05 .img-background{
+        width: 94%;
+        height: 300px;
+        margin: 0 auto;
+        margin-bottom: 25px;
     }
+
+    footer .head-main{
+        height: 320px;
+    }
+    
+    footer .head-main , footer .head-main .head-name  {
+        width: 90%;
+        text-align: center;
+    }
+    footer .head-main .icon {
+        width: 80%;
+        height: 30px;
+    }
+ 
+    header .hero-img  {   
+        width: 96%;
+        height: 300px;
+    }
+  header .head ul{
+      width: 100%;
+      height: 40px;
+      margin: 13px 0;
+      justify-content: space-between;
+      gap: 10px;
+      margin-left: -10px;
   }
+  header .hero-img {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 450px;
+    z-index: 1;
+    position: relative;
+}
+header .hero-img .black{
+    display: none;
+}
+   header .hero-img img{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid red; */
+    height: 100%;
+    z-index: 1;
+}
+  .hero-img .hero-head{
+    position: absolute;
+    width: 90%;
+    /* border: 1px solid red; */
+    height: 350px;
+    z-index: 11;
+    top: 10px;
+    left: 10px;
+}
+header .hero-img .hero-head .select{
+    width: 100%;
+    height: 260px;
+    padding: 5px;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 8px;
+    padding: 12px;
+ }
+header .hero-img .hero-head .select input{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    /* margin-top: -15px; */
+    gap: 3px;
+    padding: 16px 12px;
+ }
+ .another .info-01 {
+   gap: 16px;
+ }
+ .another .info-03 {
+    margin-top: 30px;
+ }
+ }
+ 
